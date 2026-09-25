@@ -9,7 +9,6 @@ from faiss_vector_store import (
 )
 from prompt import create_prompt
 
-
 def main():
     # Step 1
     documents = load_pdf("data/sample.pdf")
@@ -32,7 +31,6 @@ def main():
         temperature=0
     )
     while True:
-
         query = input("\nAsk your question (type 'exit' to quit): ")
 
         if query.lower() == "exit":
