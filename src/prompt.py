@@ -26,5 +26,4 @@ Question:
 
 Answer:
 """
-
     return prompt
