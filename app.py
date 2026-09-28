@@ -8,6 +8,7 @@ from src.embedder import load_embedding_model
 from src.faiss_vector_store import create_vector_store, retrieve_documents
 from src.prompt import create_prompt
 
+
 MODEL_NAME = "llama3.1"
 st.set_page_config(page_title="PRISM · Local RAG", page_icon="◆", layout="centered")
 
